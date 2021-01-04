@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/globals.css';
+import './styles/tailwind.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <h1 className="pt-52 text-2xl font-bold text-center text-blue-800">TIMES DA NBA</h1>
+
+      <div className="grid grid-cols-3 gap-5 my-20 px-4">
+        <a className="flex bg-gray-200 rounded-lg p-4 mt-4 space-x-4 hover:bg-gray-100 transition" href="#">
+          <img className="w-20" src="https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png" alt="Hawks" />
+          <p className="text-lg font-semibold self-center">Atlanta Hawks</p>
         </a>
-      </header>
+        <a className="flex bg-gray-200 rounded-lg p-4 mt-4 space-x-4 hover:bg-gray-100 transition" href="#">
+          <img className="w-20" src="https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png" alt="Hawks" />
+          <p className="text-lg font-semibold self-center">Atlanta Hawks</p>
+        </a>
+        <a className="flex bg-gray-200 rounded-lg p-4 mt-4 space-x-4 hover:bg-gray-100 transition" href="#">
+          <img className="w-20" src="https://upload.wikimedia.org/wikipedia/fr/e/ee/Hawks_2016.png" alt="Hawks" />
+          <p className="text-lg font-semibold self-center">Atlanta Hawks</p>
+        </a>
+      </div>
     </div>
   );
 }
