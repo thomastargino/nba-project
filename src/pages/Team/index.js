@@ -20,7 +20,7 @@ function Team() {
 
     return (
         <div>
-            <Link to="/" className="mx-4 my-10 text-base text-blue-800 hover:text-blue-500 transition">Back</Link>
+            <Link to="/" className="mx-4 my-10 text-base text-blue-800 hover:text-blue-500 transition">BACK</Link>
             
             <div className="my-40 px-4">
                 <h1 className="text-2xl font-bold text-center uppercase text-blue-800">{team.full_name}</h1>
